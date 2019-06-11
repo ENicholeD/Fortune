@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <title>Fortune Seller</title>
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <script src="js/jquery-3.4.1.js"></script>
+  <script src="js/scripts.js"></script>
+</head>
+<body>
+  <div class="container">
+    <div class="jumbotron">
+      <h2 class="header1">Fortune Seller</h2>
+    </div>
+    <form id="fortune_generator">
+      <h3 class="header2">Check all that apply!</h3>
+      <h4>Do you like dogs or cats?</h4>
+
+      <div class="form-group">
+        <input type="checkbox" name="gather_fortune" value="1"> Dogs<br>
+        <input type="checkbox" name="gather_fortune" value="2"> Cats<br>
+      </div>
+      <h4>What color on the page stands out most to you?</h4>
+      <input type="checkbox" name="gather_fortune" value="3"> Purple<br>
+      <input type="checkbox" name="gather_fortune" value="4"> Yellow<br>
+      <button type="submit" name="button">Get fortune</button>
+    </form>
+    <span id="response"><h4>I see it clearly now.........</h4></span>
+    <br>
+    <p id="new">You will have a happy new year!</p>
+    <p id="chicken">You will adopt a chicken...</p>
+    <p id="cliff">You will go space jumping.</p>
+    <p id="beach">You will have taco bell for lunch tomorrow</p>
+  </div>
+</body>
+</html>

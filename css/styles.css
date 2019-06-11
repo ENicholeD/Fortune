@@ -1,0 +1,65 @@
+body {
+  background-image: url("../img/background.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+h4 {
+  color: gold;
+}
+
+h3 {
+  color: gold;
+}
+
+p {
+  color: gold;
+}
+
+value {
+  color: gold;
+}
+
+.jumbotron {
+  background-image: url("../img/runes.jpg");
+  color: #7F00A6;
+
+}
+
+/* .container form {
+  color: gold;
+} */
+
+.container {
+  color: gold;
+}
+
+#response {
+  display: none;
+}
+
+#fun-responses {
+  display: none;
+}
+
+.header1 {
+  text-align: center;
+  font-family: fantasy;
+  font-size: 80px;
+  font-style: italic;
+  font-weight: bolder;
+  /* margin-top: 30px; */
+}
+
+.header2 {
+  text-align: center;
+  font-family: fantasy;
+  font-size: 30px;
+  font-style: italic;
+  font-weight: bolder;
+  background-color:
+}
+
+p {
+  font-size: 100px;
+}
